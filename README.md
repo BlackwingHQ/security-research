@@ -46,7 +46,7 @@ After notifying responsible parties of vulnerabilities, we will publicly share t
 - Before the 90-day deadline has expired, if the responsible party lets us know that a patch is scheduled for release on a specific day that will fall within 14 days following the deadline, we will delay the public disclosure until the availability of the patch.
 - If we observe a 0day (see definition below) vulnerability being actively exploited, we believe more urgent action is appropriate and we may apply a shorter disclosure deadline. We believe it is important that responsible parties disclose that there is evidence to suggest that the vulnerability is under active exploitation.
 
-We reserve the right to adjust deadlines - either bringing them forward or extending them — based on extreme circumstances. However, we remain committed to treating all responsible parties equally.
+We reserve the right to adjust deadlines — either bringing them forward or extending them — based on extreme circumstances. However, we remain committed to treating all responsible parties equally.
 
 This policy aligns with our goal of improving industry response times to security bugs, while also allowing for more flexible handling of cases where deadlines are slightly exceeded.
 
