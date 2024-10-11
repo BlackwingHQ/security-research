@@ -52,8 +52,8 @@ This policy is strongly in line with our desire to improve industry response tim
 **Note:** This policy is primarily based on [Google's vulnerability disclosure policy](https://about.google/appsecurity/). We join Google in calling on all researchers to adopt disclosure deadlines in some form. Creating pressure towards more reasonably-timed fixes will result in better security outcomes for users. 
 
 ### Terms
-    - Responsible party - Vendors, open source maintainers, and other third parties that are responsible for addressing security vulnerabilities in their products or projects.
-    - 0day - A 0day (zero-day) vulnerability refers to a security flaw in software or hardware that is not widely known.
+- Responsible party - Vendors, open source maintainers, and other third parties that are responsible for addressing security vulnerabilities in their products or projects.
+- 0day - A 0day (zero-day) vulnerability refers to a security flaw in software or hardware that is not widely known.
 
 ### Frequently Asked Questions
 - **Why don't you use the term responsible disclosure?**
