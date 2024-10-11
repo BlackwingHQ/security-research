@@ -16,7 +16,9 @@ _"This bug is subject to a 90 day disclosure deadline. If a fix for this issue i
 Our expectation is that the responsible party will fix the security vulnerability and make a patch available to users within 90 days. If so, Blackwing will release details about the vulnerability 30 days after the fix is made available to users. In some cases the responsible party may agree to publish details at an earlier date (for example, if they want to align disclosure to an official security bulletin release, or if the technical details are already public due to normal development practices).
 
 ## Advisory Database
-Our vulnerability discoveries are tracked in the Blackwing Security Research advisory database: [Security Advisories](https://github.com/BlackwingHQ/security-research/security/advisories). Initially, all of our advisories are restricted so that only Blackwing team members can see the technical content. When coordinating with a responsible party, we may invite individuals delegated by the responsible party to join the advisory as guests to facilitate collaboration. When it's time to disclose, we "publish" the advisory which means the technical description of the vulnerability will become publicly accessible in our advisory database.
+Our vulnerability discoveries are tracked in the Blackwing Security Research advisory database: [Security Advisories](https://github.com/BlackwingHQ/security-research/security/advisories). 
+
+Initially, all of our advisories are restricted so that only Blackwing team members can see the technical content. When coordinating with a responsible party, we may invite individuals delegated by the responsible party to join the advisory as guests to facilitate collaboration. When it's time to disclose, we "publish" the advisory which means the technical description of the vulnerability will become publicly accessible in our advisory database.
 
 ## Proof of Concepts
 
