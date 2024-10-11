@@ -2,7 +2,6 @@
 
 This project hosts security advisories and their accompanying proof-of-concepts related to security research conducted at Blackwing.
 
-
 ## Advisories
 
 The disclosure of vulnerabilities are in the form of security advisories, which can be browsed in the [Security
@@ -33,27 +32,29 @@ security vulnerabilities.
 
 ## Coordinated Disclosure Policy
 
-The Blackwing Intelligence research team is dedicated to protecting users. We view vulnerability disclosure as a collaborative process to protect users. This is why Blackwing adheres to a 90-day disclosure deadline.
+The Blackwing Intelligence research team is dedicated to protecting users. We view vulnerability disclosure as a collaborative process aimed at safeguarding users, which is why Blackwing adheres to a 90-day disclosure deadline.
 
-When we identify a vulnerability in a project or product as part of our public vulnerability research, we will report it by attempting to contact the publicly-listed security contact for the responsible party if one exists; otherwise we will attempt to contact the responsible party directly.
+When we identify a vulnerability in a project or product as part of our public vulnerability research, we will report it by attempting to contact the publicly listed security contact for the responsible party, if one exists. If no such contact is available, we will attempt to contact the responsible party directly.
 
-If the responsible party responds and agrees the issue poses a security risk, we will work with their security team or individuals delegated by the responsible party to communicate the vulnerability in detail, and coordinate the process for public disclosure. Responsibility for developing and releasing a patch lies firmly with the responsible party, though we aim to facilitate this by providing detailed information about the vulnerability.
+If the responsible party responds and agrees that the issue poses a security risk, we will work with their security team or designated individuals to communicate the vulnerability in detail and coordinate the process for public disclosure. The responsibility for developing and releasing a patch lies with the responsible party, although we aim to facilitate this by providing detailed information about the vulnerability.
 
-After notifying responsible parties of vulnerabilities, details will be shared in public with the defensive community after 90 days, or sooner if the responsible party releases a fix. That deadline can vary in the following ways:
+If the responsible party does not respond, or does not agree the issue poses a security risk, we will still disclose the vulnerability after 90 days have passed.
+
+After notifying responsible parties of vulnerabilities, we will publicly share the details with the defensive community after 90 days or sooner if the responsible party releases a fix. The disclosure deadline may vary in the following ways:
 
 - If a deadline is due to expire on a weekend or US public holiday, the deadline will be moved to the next normal work day.
 - Before the 90-day deadline has expired, if the responsible party lets us know that a patch is scheduled for release on a specific day that will fall within 14 days following the deadline, we will delay the public disclosure until the availability of the patch.
-- If we observe a 0day (see below for definition) vulnerability being actively exploited, we believe more urgent action is appropriate and we may apply a shorter disclosure deadline. We believe it is important that responsible parties disclose that there is evidence to suggest that the vulnerability is under active exploitation.
+- If we observe a 0day (see definition below) vulnerability being actively exploited, we believe more urgent action is appropriate and we may apply a shorter disclosure deadline. We believe it is important that responsible parties disclose that there is evidence to suggest that the vulnerability is under active exploitation.
 
-As always, we reserve the right to bring deadlines forwards or backwards based on extreme circumstances. We remain committed to treating all responsible parties equally.
+We reserve the right to adjust deadlines - either bringing them forward or extending them — based on extreme circumstances. However, we remain committed to treating all responsible parties equally.
 
-This policy is strongly in line with our desire to improve industry response times to security bugs, but also results in softer landings for bugs marginally over deadline.
+This policy aligns with our goal of improving industry response times to security bugs, while also allowing for more flexible handling of cases where deadlines are slightly exceeded.
 
 **Note:** This policy is primarily based on [Google's vulnerability disclosure policy](https://about.google/appsecurity/). We join Google in calling on all researchers to adopt disclosure deadlines in some form. Creating pressure towards more reasonably-timed fixes will result in better security outcomes for users. 
 
 ### Terms
-- Responsible party - Vendors, open source maintainers, and other third parties that are responsible for addressing security vulnerabilities in their products or projects.
-- 0day - A 0day (zero-day) vulnerability refers to a security flaw in software or hardware that is not widely known.
+- **Responsible Party** - Vendors, open source maintainers, and other third parties that are responsible for addressing security vulnerabilities in their products or projects.
+- **0day Vulnerability** - A 0day (zero-day) vulnerability refers to a security flaw in software or hardware that is not widely known, regardless of whether a patch is available by the vendor or maintainer. However, once a patch is available, the vulnerability is no longer considered a 0day vulnerability as the technical details of the vulnerability are by definition publicly available as part of the patch.
 
 ### Frequently Asked Questions
 - **Why don't you use the term responsible disclosure?**
